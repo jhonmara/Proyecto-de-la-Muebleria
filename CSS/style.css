@@ -37,12 +37,12 @@ main{
     border: 1rem;
     padding: 2rem 3.5rem;
     flex-wrap: wrap;
+    justify-content: right;
 }
 .main-nav
 {
     min-width: 100%;
     margin-top: 1rem;
-    list-style: none;
     padding-left: 15%;
     font-family: Arial;
 }
@@ -50,6 +50,7 @@ main{
 {
     padding: 2rem;
     display: inline-block;
+    
 }
 .main-nav_item a
 {
@@ -58,9 +59,8 @@ main{
     padding: 1rem;
     color: black;
     border-radius: 1rem;
-    text-decoration: none;
+    text-decoration:none;
     background-color: red;
-    text-align: left;
     margin-right: 1.6vh;
     padding-right: 1.6vh;
     
@@ -74,13 +74,14 @@ main{
 }
 .mueble
 {
-font-size: 2rem;
+    font-size: 2rem;
     width: 20%;
     padding: 1vw;
     height: 50%;
-    color:yellow;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    list-style: none;
 }
 
 
@@ -104,11 +105,16 @@ font-size: 2rem;
 }
 .espejo{
    width: 100%;
-    color: yellow;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;  
+    font-size: 2rem;
+    margin-left: 2rem; 
 }
-
+.contr{
+    margin-left: 2rem;
+    position: ;
+    
+}
 /*.texto
 {
     width: auto;
