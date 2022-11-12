@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html
+{
+    font-size: 62.5%;
+
+}
+
+body{
+    background-color: white;
+}
+.container{
+    background-color: blueviolet;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+header{
+    background-color: #003476;
+    height: 16rem;
+}
+.logo
+{
+    height: 15rem;
+    width: 15%;
+    padding-left: 1rem;  
+} 
+
+main{
+    width: 100%;
+    height: 20rem;
+    border: 1rem;
+    padding: 2rem 3.5rem;
+    flex-wrap: wrap;
+}
+.main-nav
+{
+    min-width: 100%;
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 15%;
+    font-family: Arial;
+}
+.main-nav_item
+{
+    padding: 2rem;
+    display: inline-block;
+}
+.main-nav_item a
+{
+    font-size: 2rem;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    color: black;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: red;
+    text-align: left;
+    margin-right: 1.6vh;
+    padding-right: 1.6vh;
+    
+}
+
+.main-nav_item a:hover {
+    color:chartreuse;
+}
+.main-nav_item a:active {
+    color: darkturquoise;
+}
+.mueble
+{
+font-size: 2rem;
+    width: 20%;
+    padding: 1vw;
+    height: 50%;
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+    /*para hacer anotaciones*/
+#articulos 
+{
+    width: 19rem;
+    height: 21.5rem;
+
+}
+.main-nav_item a:hover
+{
+    background-color:blue;
+  
+
+}
+
+.main-nav_item a:active
+{
+    color: black;
+}
+.espejo{
+   width: 100%;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;  
+}
+
+/*.texto
+{
+    width: auto;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}*/
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #b4d2f7;
+}
+
+
+
+
