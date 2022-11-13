@@ -27,8 +27,9 @@ header{
 .logo
 {
     height: 15rem;
+    padding-left: 1rem;
     width: 15%;
-    padding-left: 1rem;  
+
 } 
 
 main{
@@ -41,19 +42,28 @@ main{
 }
 .main-nav
 {
-    min-width: 100%;
-    margin-top: 1rem;
-    padding-left: 15%;
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
 }
+/*font-size: 4vh;
+padding: 2rem;
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+background-color: grey;
+text-align: center;
+margin-left: 2rem*/
 .main-nav_item
 {
     padding: 2rem;
+    justify-content: space-around;
     display: inline-block;
     
 }
 .main-nav_item a
 {
+    
     font-size: 2rem;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1rem;
@@ -115,6 +125,14 @@ main{
     position: ;
     
 }
+.texto{
+    font-size: 2rem;
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3vh;
+}
+
 /*.texto
 {
     width: auto;
