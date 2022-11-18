@@ -59,7 +59,7 @@ margin-left: 2rem*/
     padding: 2rem;
     justify-content: space-around;
     display: inline-block;
-    
+        
 }
 .main-nav_item a
 {
@@ -142,9 +142,17 @@ margin-left: 2rem*/
 
 }*/
 footer{
-    width: 100vw;
+    background-color: #003476;  
     height: 15vh;
-    background-color: #b4d2f7;
+    width: 83.5vw;
+
+}
+.foot{
+    color: black; 
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+
 }
 
 
