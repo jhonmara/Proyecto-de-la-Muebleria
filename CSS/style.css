@@ -44,8 +44,6 @@ main{
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-    
-
 }
 /*font-size: 4vh;
 padding: 2rem;
@@ -59,7 +57,7 @@ margin-left: 2rem*/
     padding: 2rem;
     justify-content: space-around;
     display: inline-block;
-    
+        
 }
 .main-nav_item a
 {
@@ -74,13 +72,6 @@ margin-left: 2rem*/
     margin-right: 1.6vh;
     padding-right: 1.6vh;
     
-}
-
-.main-nav_item a:hover {
-    color:chartreuse;
-}
-.main-nav_item a:active {
-    color: darkturquoise;
 }
 .mueble
 {
@@ -108,11 +99,11 @@ margin-left: 2rem*/
   
 
 }
-
+/*
 .main-nav_item a:active
 {
     color: black;
-}
+}*/
 .espejo{
    width: 100%;
     color: black;
@@ -121,9 +112,7 @@ margin-left: 2rem*/
     margin-left: 2rem; 
 }
 .contr{
-    margin-left: 2rem;
-    position: ;
-    
+    margin-left: 3rem;   
 }
 .texto{
     font-size: 2rem;
@@ -132,20 +121,20 @@ margin-left: 2rem*/
     margin-right: 3rem;
     margin-top: 3vh;
 }
-
-/*.texto
-{
-    width: auto;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-
-}*/
 footer{
-    width: 100vw;
+    background-color: #003476;  
     height: 15vh;
-    background-color: #b4d2f7;
+    width: 83.5vw;
+
 }
+.foot{
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;   
+}
+
 
 
 
