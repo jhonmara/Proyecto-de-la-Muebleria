@@ -73,13 +73,6 @@ margin-left: 2rem*/
     padding-right: 1.6vh;
     
 }
-
-.main-nav_item a:hover {
-    color:chartreuse;
-}
-.main-nav_item a:active {
-    color: darkturquoise;
-}
 .mueble
 {
     font-size: 2rem;
@@ -106,11 +99,11 @@ margin-left: 2rem*/
   
 
 }
-
+/*
 .main-nav_item a:active
 {
     color: black;
-}
+}*/
 .espejo{
    width: 100%;
     color: black;
@@ -128,15 +121,6 @@ margin-left: 2rem*/
     margin-right: 3rem;
     margin-top: 3vh;
 }
-
-/*.texto
-{
-    width: auto;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-
-}*/
 footer{
     background-color: #003476;  
     height: 15vh;
@@ -144,7 +128,8 @@ footer{
 
 }
 .foot{
-    color: black; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 1.5rem;
     padding-top: 1rem;
     text-align: center;   
